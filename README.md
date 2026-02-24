@@ -1,3 +1,4 @@
+---
 
 # 📒 App de Organização Financeira com Conversa Natural
 
@@ -19,6 +20,7 @@ Muitos usuários abandonam aplicativos financeiros por serem complexos, exigirem
 Este app resolve isso com:
 - Experiência conversacional fluida (sem formulários complicados).  
 - Recomendações automáticas e personalizadas com base nos hábitos do usuário.  
+- Orientações atualizadas obtidas via pesquisa em rede.  
 
 ## 3. Público-Alvo
 - Pessoas que desejam iniciar o controle financeiro sem complicações.  
@@ -29,8 +31,11 @@ Este app resolve isso com:
 1. 💬 Registro de gastos via chat.  
 2. 🧠 Classificação automática de transações.  
 3. 🎯 Definição e acompanhamento de metas financeiras.  
-4. 🤖 Agente Financeiro com dicas personalizadas.  
-5. 📊 Relatórios acessíveis e visuais claros.  
+4. 🤖 Agente Financeiro com dicas personalizadas e pesquisa em rede.  
+5. 📊 Relatórios acessíveis e visuais claros (gráficos de barras por categorias).  
+6. 📉 Gráfico de progresso das metas.  
+7. 📑 Extratos detalhados de transações.  
+8. 🔐 Tela personalizada de login e cadastro, com dados salvos em banco de dados.  
 
 ## 5. Princípios de Design Universal
 - Interface clara e legível.  
@@ -40,46 +45,49 @@ Este app resolve isso com:
 - Paleta de cores inclusiva.  
 
 ## 6. Entregável da IA
-- Principais telas: Chat, Metas, Relatórios.  
-- Recursos técnicos: NLP, categorização automática, motor de recomendações.  
+- Principais telas: Login/Cadastro, Chat, Metas, Relatórios, Extratos.  
+- Recursos técnicos: NLP, categorização automática, motor de recomendações, integração com banco de dados.  
 - Estratégia de validação inicial com usuários reais.  
 - Linguagem acessível e tom educativo em português.  
-- Aplicação de Design Universal desde o protótipo.  
-
+- Aplicação de Design Universal desde o protótipo.
+ 
 ```
-
----
-
-## 🖼️ Interações com IA
-Aqui você deve incluir:
-- Prints das conversas com **Copilot** e **Lovable**.  
-- Vídeos curtos mostrando como o app foi pensado ou prototipado.  
-
-*(Sugestão: crie uma pasta `/docs` no repositório e adicione as imagens lá.)*
-
----
-
-## 💡 Resumo do Conceito
-O **App de Organização Financeira com Conversa Natural** é uma solução que substitui planilhas e formulários por uma experiência de chat simples e acessível.  
-Ele usa IA para interpretar linguagem natural, categorizar gastos automaticamente e oferecer recomendações personalizadas.  
-Com foco em **Design Universal**, garante que qualquer pessoa — independentemente de idade ou limitações — consiga organizar suas finanças de forma prática.
 
 ---
 
 ## 🖌️ Wireframe Textual das Telas
 
-### Tela 1 – Chat Financeiro
+### Tela 1 – Login/Cadastro
+```
+---------------------------------
+🔐 Bem-vindo ao App Financeiro
+---------------------------------
+[Campo: Email]
+[Campo: Senha]
+[Botão: Entrar]
+---------------------------------
+[Link: Criar conta]
+---------------------------------
+Cadastro:
+[Nome] [Email] [Senha] [Confirmar Senha]
+[Botão: Registrar]
+---------------------------------
+Dados salvos em banco de dados
+```
+
+### Tela 2 – Chat Financeiro
 ```
 ---------------------------------
 💬 Conversa com seu Agente Financeiro
 ---------------------------------
 Usuário: "Gastei R$ 30 no mercado"
 IA: "Ok, registrei como gasto em alimentação."
+IA: "Pesquisei na rede: supermercados próximos com promoções."
 ---------------------------------
 [Campo de texto] [Botão enviar]
 ```
 
-### Tela 2 – Metas Financeiras
+### Tela 3 – Metas Financeiras
 ```
 ---------------------------------
 🎯 Minhas Metas
@@ -87,14 +95,16 @@ IA: "Ok, registrei como gasto em alimentação."
 - Economizar R$ 500 até 30/03
 Progresso: ██████░░░░ 60%
 ---------------------------------
+[Gráfico de progresso circular]
 [Botão: Criar nova meta]
 ```
 
-### Tela 3 – Relatórios
+### Tela 4 – Relatórios (com gráficos)
 ```
 ---------------------------------
 📊 Relatório Mensal
 ---------------------------------
+Categorias:
 Alimentação: R$ 450
 Transporte: R$ 200
 Lazer: R$ 150
@@ -102,8 +112,35 @@ Lazer: R$ 150
 [Gráfico de barras com alto contraste]
 ```
 
-**Observação:** O wireframe textual ajuda a visualizar a estrutura sem depender de imagens, reforçando acessibilidade.
+### Tela 5 – Extratos Detalhados
+```
+---------------------------------
+📑 Extrato de Transações
+---------------------------------
+01/03 - Mercado - R$ 30
+02/03 - Uber - R$ 25
+03/03 - Cinema - R$ 40
+---------------------------------
+[Botão: Exportar extrato]
+```
 
+---
+## 🖼️ Interações com IA
+Aqui você deve incluir:
+
+Prints das conversas com Copilot e Lovable.
+
+Vídeos curtos mostrando como o app foi pensado ou prototipado.
+
+(Sugestão: crie uma pasta /docs no repositório e adicione as imagens lá.)
+---
+## 🎯 Resultado Final
+
+---
+##💡 Resumo do Conceito
+O App de Organização Financeira com Conversa Natural é uma solução que substitui planilhas e formulários por uma experiência de chat simples e acessível.
+Ele usa IA para interpretar linguagem natural, categorizar gastos automaticamente e oferecer recomendações personalizadas.
+Com foco em Design Universal, garante que qualquer pessoa — independentemente de idade ou limitações — consiga organizar suas finanças de forma prática.
 ---
 
 ## 📚 Reflexão
@@ -116,3 +153,4 @@ Esse desafio mostrou que durante o refinamento do PRD, aprendi que:
 - Trabalhar com IA exige prompts bem estruturados para guiar o resultado.  
 - O README é uma vitrine do projeto e deve ser tratado como parte essencial do portfólio.  
 
+---
