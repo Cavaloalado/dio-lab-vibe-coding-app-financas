@@ -123,7 +123,7 @@ Lazer: R$ 150
 ---------------------------------
 [Botão: Exportar extrato]
 ```
-
+---
 ---
 ## 🖼️ Interações com IA
 Aqui você deve incluir:
