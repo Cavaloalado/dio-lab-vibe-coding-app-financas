@@ -127,16 +127,31 @@ Lazer: R$ 150
 ---
 ## 🖼️ Interações com IA
 
-Aqui você deve incluir:
-
 Prints das conversas com Copilot e Lovable.
-
-Vídeos curtos mostrando como o app foi pensado ou prototipado.
-
-(Sugestão: crie uma pasta /docs no repositório e adicione as imagens lá.)
+---
+"utilize o prd refinado e estruture com melhorias no processo explicando cada alteração e focando na acessibilidade e no designer visual acessivel e claro PRD, colocar resposta em formato markdown:"
+"incluir graficos de barras com categorias no relatorio, grafico de progressos nas metas, e extratos detalhados de transações no app.."
+"incluir tela personalizada de login e cadastro de  cada usuario, salvo em banco de dados, o agente deve ser capaz de pesuisar na rede e trazer as melhores orientações ao usuario"
+---
 
 ---
 ## 🎯 Resultado Final
+---
+<img width="1414" height="862" alt="Captura de tela 2026-02-24 002024" src="https://github.com/user-attachments/assets/51087c8d-5325-441c-ad6a-a0cf2a8751e1" />
+
+<img width="1418" height="902" alt="image" src="https://github.com/user-attachments/assets/1ade670d-1b34-4633-aae9-bba2bc51a7ef" />
+
+<img width="1399" height="907" alt="image" src="https://github.com/user-attachments/assets/9c68afc5-8a1c-450e-8f7e-a28550ff2cd4" />
+
+<img width="1416" height="902" alt="image" src="https://github.com/user-attachments/assets/d4735f1a-446e-4b1a-a695-06366edb2790" />
+
+<img width="1420" height="913" alt="image" src="https://github.com/user-attachments/assets/73a3e1de-6183-471b-827d-8850cc2531bc" />
+
+<img width="1414" height="899" alt="image" src="https://github.com/user-attachments/assets/cb384618-1982-4231-b941-edd9f0c91cf3" />
+
+---
+
+
 
 ---
 ## 💡 Resumo do Conceito
