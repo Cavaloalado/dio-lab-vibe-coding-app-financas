@@ -139,7 +139,7 @@ Vídeos curtos mostrando como o app foi pensado ou prototipado.
 ## 🎯 Resultado Final
 
 ---
-##💡 Resumo do Conceito
+## 💡 Resumo do Conceito
 
 O App de Organização Financeira com Conversa Natural é uma solução que substitui planilhas e formulários por uma experiência de chat simples e acessível.
 Ele usa IA para interpretar linguagem natural, categorizar gastos automaticamente e oferecer recomendações personalizadas.
